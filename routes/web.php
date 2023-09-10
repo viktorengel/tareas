@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/tareas', function () {
-    return view('app');
+Route::get('/', function () {
+    return view('partes.index');
 });
